@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101316">
+  <meta name="description" content="ELECTRO LAB، منصة هندسية للتعلم والحسابات الكهربائية.">
+  <title>ELECTRO LAB | النظام الهندسي الكهربائي</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;background:#101316;color:#edf2f5;font-family:Arial,Tahoma,sans-serif;line-height:1.8}
+    header{padding:22px 7%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #293238}
+    .brand{font-weight:800;letter-spacing:2px;color:#e8eef2;font-size:20px}
+    .brand span{color:#35b9d5}
+    nav a{color:#b8c5cc;text-decoration:none;margin-right:20px;font-size:14px}
+    .hero{max-width:1100px;margin:auto;padding:65px 22px 55px;display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}
+    .hero img{width:100%;max-width:440px;border-radius:16px;display:block;margin:auto;box-shadow:0 18px 55px #0009}
+    .tag{color:#45c5df;font-size:13px;letter-spacing:2px}
+    h1{font-size:clamp(38px,6vw,64px);line-height:1.15;margin:12px 0}
+    h1 span{color:#42bfd9}
+    p{color:#b7c3ca}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+    .btn{display:inline-block;padding:12px 23px;border-radius:9px;text-decoration:none;font-weight:bold}
+    .primary{background:#28aeca;color:#071216}
+    .secondary{border:1px solid #52616a;color:#edf2f5}
+    section{padding:55px 7%;border-top:1px solid #252e34}
+    .wrap{max-width:1000px;margin:auto}
+    h2{font-size:28px;margin-top:0}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .feature{background:#191f24;border:1px solid #2b373e;border-radius:13px;padding:20px}
+    .feature h3{color:#55c6dc;margin-top:0}
+    .about{max-width:760px}
+    footer{text-align:center;padding:28px 15px;color:#87969e;font-size:13px;border-top:1px solid #293238}
+    @media(max-width:700px){header{padding:18px 5%}nav{display:none}.hero{grid-template-columns:1fr;padding-top:38px}.hero img{max-width:330px}.features{grid-template-columns:1fr}section{padding:42px 6%}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="brand">ELECTRO <span>LAB</span></div>
+  <nav><a href="#features">المميزات</a><a href="#about">عن المشروع</a><a href="#download">التحميل</a></nav>
+</header>
+
+<main>
+  <div class="hero">
+    <div>
+      <div class="tag">ELECTRICAL ENGINEERING SYSTEM</div>
+      <h1>الهندسة الكهربائية،<br><span>بشكل أذكى.</span></h1>
+      <p>منصة ELECTRO LAB تجمع الأدوات والحسابات الكهربائية في تجربة عملية واضحة، لمساعدة الطلبة والمهتمين بالهندسة الكهربائية.</p>
+      <div class="actions">
+        <a class="btn primary" href="#download">تحميل التطبيق</a>
+        <a class="btn secondary" href="#features">اكتشف المميزات</a>
+      </div>
+    </div>
+    <img src="assets/logo.png" alt="شعار ELECTRO LAB">
+  </div>
+
+  <section id="features">
+    <div class="wrap">
+      <h2>ماذا يقدم ELECTRO LAB؟</h2>
+      <div class="features">
+        <article class="feature"><h3>الحسابات الكهربائية</h3><p>أدوات عملية للمساعدة في إجراء مجموعة من الحسابات الكهربائية.</p></article>
+        <article class="feature"><h3>واجهة سهلة</h3><p>تصميم واضح يسهّل الوصول إلى الأدوات واستخدامها من الهاتف.</p></article>
+        <article class="feature"><h3>مشروع متطور</h3><p>نعمل على تطوير المنصة وإضافة أدوات ومزايا هندسية جديدة.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap about">
+      <h2>عن المشروع</h2>
+      <p>ELECTRO LAB مشروع تقني تعليمي يهدف إلى تقديم أدوات مساعدة في مجال الهندسة الكهربائية، بهوية هندسية حديثة وتجربة استخدام عملية.</p>
+      <p><strong>المؤسس والمطوّر:</strong> المهندس ياسر سعيد</p>
+      <p><strong>المساعدة الهندسية بالذكاء الاصطناعي:</strong> المهندسة زهراء GPT</p>
+    </div>
+  </section>
+
+  <section id="download">
+    <div class="wrap">
+      <h2>احصل على التطبيق</h2>
+      <p>نسخة Android ستكون متاحة عبر صفحة الإصدارات الرسمية للمشروع.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://github.com/20l4i/ELECTRO-LAB/releases/latest">تحميل التطبيق من GitHub</a>
+        <a class="btn secondary" href="https://github.com/20l4i/ELECTRO-LAB">مستودع المشروع</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>© 2026 ELECTRO LAB · جميع الحقوق محفوظة</footer>
+</body>
+</html>
